@@ -9,7 +9,7 @@ export const projects = [
     type: "Full-Stack Web Application",
     status: "Complete and Live",
     liveUrl: "https://e-voting-theta-seven.vercel.app",
-    repoUrl: "",
+    repoUrl: "https://github.com/travisse00/E-Voting.git",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
     features: [
       "Authenticated user flow",

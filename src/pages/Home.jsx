@@ -5,6 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 import { projects } from "../data/projects";
 
 export default function Home() {
+  const featuredProjects = projects.slice(0, 3); // Get the first 3 projects for the home page
   return (
     <>
       <section className="home-hero">
@@ -72,7 +73,9 @@ export default function Home() {
             text="A few completed projects across frontend development, APIs, authentication, CRUD systems, and relational databases."
           />
           <div className="project-grid">
-            {projects.map((project) => <ProjectCard key={project.slug} project={project} />)}
+            {featuredProjects.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
           </div>
           <div className="center-link">
             <Link to="/projects" className="text-link large">

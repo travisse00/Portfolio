@@ -99,14 +99,6 @@ export default function ProjectDetail() {
               </div>
             </section>
 
-            <section className="detail-section screenshots-section">
-              <h2>Screenshots</h2>
-              <div className="screenshot-placeholder">
-                <Layers3 size={25} />
-                <p>Add real project screenshots here</p>
-                <span>This section is intentionally a placeholder so the portfolio never pretends a screenshot exists when it doesn't.</span>
-              </div>
-            </section>
           </main>
 
           <aside className="detail-sidebar">

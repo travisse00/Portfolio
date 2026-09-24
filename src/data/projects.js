@@ -1,5 +1,56 @@
 export const projects = [
   {
+  slug: "gigflow",
+  title: "GigFlow",
+  shortDescription:
+    "A full-stack freelance marketplace where clients can post gigs and freelancers can manage orders through a role-based workflow.",
+  description:
+    "GigFlow is a full-stack MERN application designed to connect clients with freelancers. It includes authentication, role-based access, gig management, order workflows, email notifications, and real-time updates using Socket.IO.",
+  type: "Full-Stack Web Application",
+  status: "In Development",
+  liveUrl: "https://gigflow-brown-alpha.vercel.app/",
+  repoUrl: "https://github.com/travisse00/GigFlow.git",
+  technologies: [
+    "React",
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "Socket.IO",
+    "JWT",
+    "Nodemailer"
+  ],
+  features: [
+    "User registration and authentication",
+    "JWT-based authentication",
+    "Client and freelancer roles",
+    "Gig creation and management",
+    "Order creation and management",
+    "Order acceptance and rejection",
+    "Order completion workflow",
+    "Protected routes",
+    "Real-time order updates",
+    "Real-time user communication with Socket.IO",
+    "Email notifications",
+    "Persistent authentication state"
+  ],
+  implementation: [
+    "React handles the frontend interface and application state.",
+    "Node.js and Express power the REST API and backend business logic.",
+    "MongoDB and Mongoose handle users, gigs, and orders.",
+    "JWT is used for authentication and protected API routes.",
+    "Role-based access controls what clients and freelancers can do.",
+    "Socket.IO provides real-time updates for order events.",
+    "Nodemailer handles email notifications during the user workflow.",
+    "The application uses dedicated user rooms to deliver real-time events to the correct users."
+  ],
+  problem:
+    "Freelance platforms require more than simple CRUD operations. Users need different permissions, structured order workflows, authentication, notifications, and real-time updates between clients and freelancers.",
+  solution:
+    "Build a full-stack marketplace that separates client and freelancer workflows while combining REST APIs, JWT authentication, MongoDB, email notifications, and Socket.IO real-time communication into one application."
+},
+  {
     slug: "e-voting",
     title: "E-Voting System",
     shortDescription:
@@ -40,7 +91,7 @@ export const projects = [
     type: "MERN Application",
     status: "Completed and Live",
     liveUrl: "https://expense-tracker-dcgo.vercel.app",
-    repoUrl: "",
+    repoUrl: "https://github.com/travisse00/Expense-Tracker.git",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "bcrypt"],
     features: [
       "User registration and authentication",

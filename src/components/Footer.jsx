@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div>
-          <p className="footer-name">Travis</p>
+          <p className="footer-name">Travisse</p>
           <p className="footer-copy">Software Engineering Student · Full-Stack Developer</p>
         </div>
 

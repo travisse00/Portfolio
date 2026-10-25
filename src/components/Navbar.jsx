@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="container nav-inner">
         <Link to="/" className="brand" onClick={close} aria-label="Travis home">
           <span className="brand-mark"><Code2 size={19} /></span>
-          <span>Travis</span>
+          <span>Travisse</span>
         </Link>
 
         <nav className={`desktop-nav ${open ? "mobile-open" : ""}`}>

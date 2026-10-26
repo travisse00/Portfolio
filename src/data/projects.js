@@ -50,6 +50,58 @@ export const projects = [
   solution:
     "Build a full-stack marketplace that separates client and freelancer workflows while combining REST APIs, JWT authentication, MongoDB, email notifications, and Socket.IO real-time communication into one application."
 },
+{
+  slug: "formchat",
+  title: "FormChat",
+  shortDescription:
+    "A full-stack form builder that lets users create, publish, and manage forms, collect responses, and embed forms into websites through a chatbot-style widget.",
+  description:
+    "A full-stack form-building platform built with Next.js, TypeScript, Tailwind CSS, and Supabase. FormChat provides form creation and management, customizable form settings, response collection, and an embeddable chatbot widget for integrating forms into external websites.",
+  type: "Full-Stack Web Application",
+  status: "Completed and Live",
+  liveUrl: "https://form-builder-virid-pi.vercel.app",
+  repoUrl: "https://github.com/travisse00/Form-Builder.git",
+  technologies: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Supabase",
+    "PostgreSQL",
+    "Supabase Auth",
+    "Lucide React",
+    "Vercel"
+  ],
+  features: [
+    "User authentication and account management",
+    "Form creation and editing",
+    "Customizable form settings and appearance",
+    "Dynamic question management",
+    "Form publishing and unique slugs",
+    "Form submissions and response collection",
+    "Embeddable chatbot widget",
+    "Floating and inline form embedding",
+    "Form response management",
+    "Draft persistence with LocalStorage",
+    "Webhook integrations"
+  ],
+  implementation: [
+    "Next.js App Router and React handle the application interface, routing, and interactive form-building experience.",
+    "TypeScript provides type safety across the application and helps maintain consistent data structures.",
+    "Supabase Auth manages user authentication, while PostgreSQL stores user profiles, forms, questions, and submissions.",
+    "Form ownership is associated with authenticated users to support user-specific form management.",
+    "Dynamic question management allows users to configure form fields, question types, required fields, and other settings.",
+    "Published forms use unique slugs to identify forms and make them accessible through public URLs.",
+    "The embeddable widget retrieves published form data through an API endpoint and renders the form on external websites.",
+    "Floating and inline embedding options allow forms to be integrated into different website layouts.",
+    "LocalStorage preserves form drafts locally to help prevent loss of unsaved editing progress.",
+    "Webhook integrations are designed to send form submission data to external endpoints for connecting FormChat with other applications."
+  ],
+  problem:
+    "Creating forms, collecting responses, and integrating those forms into existing websites can require multiple separate tools. Developers and website owners need a flexible way to build forms, manage submissions, and embed interactive form experiences without rebuilding the entire interface.",
+  solution:
+    "Build a full-stack form platform that combines form creation, publishing, response management, and embeddable chatbot-style forms in one application, with webhook integrations extending the ability to deliver submission data to external services."
+},
   {
     slug: "e-voting",
     title: "E-Voting System",

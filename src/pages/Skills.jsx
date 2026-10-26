@@ -2,10 +2,10 @@ import SectionHeading from "../components/SectionHeading";
 import TechBadge from "../components/TechBadge";
 
 const skillGroups = [
-  { category: "Frontend", items: ["HTML", "CSS", "JavaScript", "React", "TypeScript"] },
-  { category: "Backend", items: ["Node.js", "Express.js", "REST APIs", "Socket.IO"] },
-  { category: "Database", items: ["MongoDB", "PostgreSQL", "SQL", "Mongoose"] },
-  { category: "Authentication", items: ["JWT", "bcrypt", "Protected Routes", "Role-based Flows"] },
+  { category: "Frontend", items: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Next.js"] },
+  { category: "Backend", items: ["Node.js", "Express.js", "REST APIs", "Socket.IO", "Next.js"] },
+  { category: "Database", items: ["MongoDB", "PostgreSQL", "SQL", "Mongoose", "Supabase"] },
+  { category: "Authentication", items: ["JWT", "bcrypt", "Protected Routes", "Role-based Flows", "Supabase Auth"] },
   { category: "Tools", items: ["Git", "GitHub", "Vite", "Postman", "Figma"] },
   { category: "Other", items: ["Formik", "Yup", "Context API", "Responsive Design"] }
 ];
